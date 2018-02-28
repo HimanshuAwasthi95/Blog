@@ -1,6 +1,6 @@
 # Visualizing Data Set is fun using Orange
 
-### Introduction:
+## Introduction:
 
 Data has become powerful source of earning and predict future  and people will seek to utilize it even if they don’t know exactly how. Machine learning will become a usual part of programmer’s resume, data scientists will be as common as accountants. Now a days and for the next approximately two decades, we will continue to see a major need for machine learning and data science specialists to help apply machine learning technologies to application areas where they aren't applied today.
 
@@ -8,7 +8,7 @@ Data has become powerful source of earning and predict future  and people will s
 
 Now a day people prefer GUI based tools instead of more coding stuffs . Orange is one of the popular open source machine learning and data visualization tool for beginners. People who don’t know more about coding and willing to visualize pattern and other stuffs can easily work with Orange.
 
-### Why Orange:
+## Why Orange:
 
 Orange is an open-source software package released under GPL  that powers Python scripts with its rich compilation of mining and machine learning algorithms for data pre-processing, classification, modelling, regression, clustering and other miscellaneous functions. 
 
@@ -17,7 +17,7 @@ Orange also comes with a visual programming environment and its workbench consis
 Orange uses common Python open-source libraries for scientific computing, such as numpy, scipy and scikit-learn, while its graphical user interface operates within the cross-platform Qt framework. 
             
 
-### Getting Started:
+## Getting Started:
 
 #### Download Orange 
 
@@ -68,7 +68,7 @@ Mac and Windows user can easy setup orange in their system step by step just fol
 
 After installation let's start working with Orange
 
-### Visualization of Data Set in Orange:
+## Visualization of Data Set in Orange:
 
 A primary goal of data visualization is to communicate information clearly and efficiently via statistical graphics, plots and information graphics. 
 
@@ -89,7 +89,7 @@ A primary goal of data visualization is to communicate information clearly and e
 We import zoo.tab data set in file widget:
 
 
-Step 2: In next step we need data tables to viewing our data set. For this we use Data Table widget.
+**Step 2:** In next step we need data tables to viewing our data set. For this we use Data Table widget.
 
 ![ZooData](../img/screenshot2.jpg)
 
@@ -98,7 +98,7 @@ When we double click on the data table widget we can visualize our data in actua
 ![ZooData](../img/screenshot3.jpg)
 
 
-Step 3: This is the last step where we will understand our data, with the help of visualization. Orange make visualization pretty much easier. We just add one more widget and choose in which format we would like to visualize our data like Scatter Plot.
+**Step 3:** This is the last step where we will understand our data, with the help of visualization. Orange make visualization pretty much easier. We just add one more widget and choose in which format we would like to visualize our data like Scatter Plot.
 
 ![visualization](../img/screenshot4.jpg)
 
@@ -106,9 +106,13 @@ This completely works on the concept of neurons, data transfer from one layer to
 
 ![visualization_scatter](../img/screenshot5.jpg)
 
-### Motivation:
+## Closing Note:
 
-**Orange** pretty populer  
+**Orange** is most powerfull tool used for almost any kind of analysis and visualization of data. The default installation includes a number of machine learning, preprocessing and data visualization algorithms in 6 widget sets (data, visualize, classify, regression, evaluate and unsupervised). Additional functionalities are available as add-ons (bioinformatics, data fusion and text-mining).
 
-Hope this tutorial help you to understand data visualization with the help of **Orange**. Orange is pretty simple tool used for machine learning and visualization of data. It is very important to understand the flow of data, this helps you to figure out problems easily. 
+Hope this tutorial help you to understand data visualization with the help of **Orange**. It is very important to understand the flow of data, this helps you to figure out problems easily. 
+
+> Keep Practice with Orange
+
+**Happy Coding**
 
