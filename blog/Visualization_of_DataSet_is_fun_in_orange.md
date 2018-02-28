@@ -4,6 +4,8 @@
 
 Data has become powerful source of earning and predict future  and people will seek to utilize it even if they don’t know exactly how. Machine learning will become a usual part of programmer’s resume, data scientists will be as common as accountants. Now a days and for the next approximately two decades, we will continue to see a major need for machine learning and data science specialists to help apply machine learning technologies to application areas where they aren't applied today.
 
+![orange_software](../img/Orange-software-logo.png)
+
 Now a day people prefer GUI based tools instead of more coding stuffs . Orange is one of the popular open source machine learning and data visualization tool for beginners. People who don’t know more about coding and willing to visualize pattern and other stuffs can easily work with Orange.
 
 ### Why Orange:
@@ -21,6 +23,8 @@ Orange uses common Python open-source libraries for scientific computing, such a
 
 => Go to [https://orange.biolab.si](https://orange.biolab.si) and click on Download.
 
+![orange_software_download](../img/downloadscreenshot.png)
+
 ##### For Linux Users: 
 
 ###### Anaconda
@@ -32,8 +36,7 @@ If you are using python provided by Anaconda distribution, you are almost ready 
 and run
 
 > conda install orange3
-
-> conda install -c defaults pyqt=5 qt
+  conda install -c defaults pyqt=5 qt
 
 ###### PIP
 
@@ -70,27 +73,42 @@ After installation let's start working with Orange
 A primary goal of data visualization is to communicate information clearly and efficiently via statistical graphics, plots and information graphics. 
 
 > Main goal of data visualization is to communicate information clearly and effectively through graphical means. It doesn't mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful. To convey ideas effectively, both aesthetic form and functionality need to go hand in hand, providing insights into a rather sparse and complex data set by communicating its key-aspects in a more intuitive way. Yet designers often fail to achieve a balance between form and function, creating gorgeous data visualizations which fail to serve their main purpose — to communicate information.”
+                                                                                                     **-Friedman (2008)** 
 
-                                                    -Friedman (2008) 
+**Open Orange on your system & create your own new Workflow:** 
 
-Open Orange on your system & create your own new Workflow named as test as shown in image below:
+![Workflow](../img/screenshot1.jpg)
 
+**After you clicked on “New” in the above step, this is what you should have come up with:**
 
+![Workflow_test](../img/screenshot6.jpg)
 
-In this tutorial we are going to learn Visualization of Data Set in few steps as given below:
+#### In this tutorial we are going to learn Visualization of Data Set in few steps as given below:
 
-Step 1: Without data there is no existence of Machine Learning. So In our first step we import our data set in this tutorial I uses example data set available in Orange Directory.
+**Step 1:** Without data there is no existence of Machine Learning. So In our first step we import our data set in this tutorial I uses example data set available in Orange Directory.
 We import zoo.tab data set in file widget:
 
-[Image]
 
 Step 2: In next step we need data tables to viewing our data set. For this we use Data Table widget.
 
-[Image]
+![ZooData](../img/screenshot2.jpg)
+
+When we double click on the data table widget we can visualize our data in actual format :
+
+![ZooData](../img/screenshot3.jpg)
+
 
 Step 3: This is the last step where we will understand our data, with the help of visualization. Orange make visualization pretty much easier. We just add one more widget and choose in which format we would like to visualize our data like Scatter Plot.
 
-[Image]
+![visualization](../img/screenshot4.jpg)
 
+This completely works on the concept of neurons, data transfer from one layer to other layer when we connect data table to scatter plot widget then we find actual representation of our data in the form of scatter plot.
 
+![visualization_scatter](../img/screenshot5.jpg)
+
+### Motivation:
+
+**Orange** pretty populer  
+
+Hope this tutorial help you to understand data visualization with the help of **Orange**. Orange is pretty simple tool used for machine learning and visualization of data. It is very important to understand the flow of data, this helps you to figure out problems easily. 
 
