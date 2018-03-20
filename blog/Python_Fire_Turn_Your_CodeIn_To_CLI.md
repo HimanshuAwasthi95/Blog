@@ -1,5 +1,5 @@
 # Python Fire : Automatically Turn Your Code In To CLI
-**Python Fire ** is an Opensource library created by Google which automatically generates command line interface from any python object. It give power of developing and debugging any Python Code. 
+**Python Fire** is an Opensource library created by Google which automatically generates command line interface from any python object. It give power of developing and debugging any Python Code. 
 
 **Lets start with Python Fire**
 
