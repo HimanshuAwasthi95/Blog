@@ -38,7 +38,59 @@ Open Your Terminal & Run,
 
 ## Why is it called Fire?
 
- When you call >Fire , it fires off(executes) your command.
+> When you call **Fire** , it fires off(executes) your command.
 
- # Talk is cheap , Show me the Code
+Lets take a look an example in which we make an app which generate random samples.
+# Talk is cheap , Show me the Code
+This example is taken from this superb [blog](https://medium.com/@galea/automated-python-arguments-with-google-fire-600ec602c58b) written by [Alex Galea](https://www.twitter.com/agalea91)
+```
+import fire
+import numpy as np
 
+def random_sample(choices, num_samples=1, seed=None):
+    '''
+    Return a random sample of the given input arguments.
+    
+    choices : tuple
+        The data to sample.
+    num_samples : int
+        The number of samples to return.
+    seed : int
+        Variable used to seed random number generator. Set to None for random seed.
+    '''
+    num_samples = int(num_samples)
+    seed = int(seed) if str(seed).isnumeric() else seed
+
+    print('Choices: %s' % repr(choices))
+    print('Genreating %d samples' % num_samples)
+    print('Random seed: %r' % seed)
+    np.random.seed(seed)
+    samples = np.random.choice(choices, size=num_samples)
+    print('Samples:')
+    return '\n'.join(samples)
+
+def main():
+    fire.Fire(random_sample)
+
+if __name__ == '__main__':
+    main()
+```
+### Run python main.py 
+![fireresult](../img/fireoutput.jpg)
+
+Our random_sample function fed into **Fire** method.
+
+# Basic Usage of Fire CLI :
+
+1. Accessing Member of an object.
+2. Accessing members of a dict
+3. Accessing members of a list or tuple
+4. Calling a function
+5. Instantiating a class
+Know more about Fire [Go To Official Docs](https://github.com/google/python-fire/blob/master/docs/using-cli.md)
+
+### I will wrapped my words here with this awesome quote by Anthony J. D'Angelo :
+> *without a sense of caring, there can be no sense of community.*
+
+**Happy Coding!**
+**Happy Coding**
