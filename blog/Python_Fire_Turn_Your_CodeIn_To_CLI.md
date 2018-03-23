@@ -32,3 +32,13 @@ if __name__ == '__main__':
 Open Your Terminal & Run,
 
 > python calc.py square 4 # 16 
+
+## How Google Uses Python Fire :
+ Google Engineer uses Python Fire to generate command line tool from Python Library. We can see a lot    of simple apps that generates automated command line interfaces with the help of Python Fire library.   It helps us to spend less time in documentation inspite of Programming. After Tensorflow this is one    of the fantastic opensource library created by google.
+
+## Why is it called Fire?
+
+ When you call >Fire , it fires off(executes) your command.
+
+ # Talk is cheap , Show me the Code
+
