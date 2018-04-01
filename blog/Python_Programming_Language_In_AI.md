@@ -21,7 +21,9 @@ If you are beginner you can easily start with python.there is Huge Python Learni
 
 In this section, we will be looking at powerful, popular Python libraries that are used for artificial intelligence. We will be looking at their advantages & drawbacks, and their features. So, Let's begin and explore these fantastic Python libraries:
 
-**1. TensorFlow:** TensorFlow is an open-source software library for dataflow programming and widely used for machine learning applications such as neural networks.TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015
+**1. TensorFlow:** 
+
+TensorFlow is an open-source software library for dataflow programming and widely used for machine learning applications such as neural networks.TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015
 
 > *"Computation using data flow graphs for scalable machine learning."*
 
@@ -66,6 +68,10 @@ PyTorch is fast and lean because it gives feature to integrate acceleration libr
 1. PyTorch only supports linux and osx.
 
 [Click Here For Documentation](http://pytorch.org/)
+
+**3. Keras :**
+
+
 
 ### 3. Popular Implimented Projects in Python
 ### 4. Motivation
