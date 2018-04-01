@@ -1,6 +1,6 @@
 # Python Programming Language in AI
 
-We all are in the era of [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence). Tech giants like Google , Microsoft & Facebook investing in AI. **Amazon's Alexa** also shows the how tight compition going in to markeet of AI, not only Google & Apple but other companies also dominate the tech market if they have power of AI. There is huge opportunity in 2018 for people who looking for jobs in Machine Learning , Deep Learning & AI . Some times it seem like Machine Learning & AI both are same thing but actully their is a basic difference b/w them & In short, the best explanation defines this in better way is that:
+We all are in the era of [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence). Tech giants like Google , Microsoft & Facebook investing in AI. **Amazon's Alexa** also shows the how tight compition going in to market of AI, not only Google & Apple but other companies also dominate the tech market if they have power of AI. There is huge opportunity in 2018 for people who looking for jobs in Machine Learning , Deep Learning & AI . Some times it seem like Machine Learning & AI both are same thing but actully their is a basic difference b/w them & In short, the best explanation defines this in better way is that:
 
 > *Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.*
 
@@ -42,5 +42,30 @@ TensorFlow is an interface for expressing Machine Learning algorithm & implement
 [Click Here For Documentation](https://www.tensorflow.org/)
 
 **2. PyTorch :**
+
+PyTorch is a Python-based open-source Machine Learning library with GPU support. PyTorch is a python package that provides two high-level features:
+* Tensor computation (like numpy) with strong GPU acceleration
+* Deep Neural Networks built on a tape-based autodiff system
+
+PyTorch is a cousin of lua-based Torch framework which is actively used at Facebook. The main feature is that Neural Networks can be built dynamically making way for learning more advanced and complex AI tasks. 
+
+> *"Best fits for those who looking for more Pythonic Environment."*
+
+PyTorch is fast and lean because it gives feature to integrate acceleration libraries such as Intel MKL and NVIDIA (CuDNN, NCCL) to maximize speed.
+
+> *"PyTorch is quite fast – whether you run small or large neural networks."*
+
+**Advantages :**
+
+1. Deep learning research platform that provides maximum flexibility
+2. Fast & Lean
+3. Pretty good documentation
+
+**Drawbacks :**
+
+1. PyTorch only supports linux and osx.
+
+[Click Here For Documentation](http://pytorch.org/)
+
 ### 3. Popular Implimented Projects in Python
 ### 4. Motivation
