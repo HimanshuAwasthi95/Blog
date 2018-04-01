@@ -19,7 +19,11 @@ If you are beginner you can easily start with python.there is Huge Python Learni
 2. [Python for you and me](https://kushaldas.in/details/pym.pdf)
 ### 2. Python Library & Framework for AI
 
-In this section, we will be looking at powerful, popular Python libraries that are used for artificial intelligence. We will be loooking at their pros and cons, and their features. So, Let's begin and explore these fantastic Python libraries:
+In this section, we will be looking at powerful, popular Python libraries that are used for artificial intelligence. We will be looking at their advantages & drawbacks, and their features. So, Let's begin and explore these fantastic Python libraries:
+
+**TensorFlow:** TensorFlow is an open-source software library for dataflow programming and widely used for machine learning applications such as neural networks.TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015
+
+> *"Computation using data flow graphs for scalable machine learning."*
 
 
 ### 3. Popular Implimented Projects in Python
