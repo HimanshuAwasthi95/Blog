@@ -2,7 +2,7 @@
 
 We all are in the era of [Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence). Tech giants like Google , Microsoft & Facebook investing in AI. **Amazon's Alexa** also shows the how tight compition going in to markeet of AI, not only Google & Apple but other companies also dominate the tech market if they have power of AI. There is huge opportunity in 2018 for people who looking for jobs in Machine Learning , Deep Learning & AI . Some times it seem like Machine Learning & AI both are same thing but actully their is a basic difference b/w them & In short, the best explanation defines this in better way is that:
 
-> Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.
+> *Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.*
 
 Here I'm going to tell you about how a programming language plays a key roll in production of AI product & Thats true I'm talking about [Python](https://www.python.org/). If you looking for a oppportunity in AI, you must understand the power of Python.
 
@@ -21,10 +21,26 @@ If you are beginner you can easily start with python.there is Huge Python Learni
 
 In this section, we will be looking at powerful, popular Python libraries that are used for artificial intelligence. We will be looking at their advantages & drawbacks, and their features. So, Let's begin and explore these fantastic Python libraries:
 
-**TensorFlow:** TensorFlow is an open-source software library for dataflow programming and widely used for machine learning applications such as neural networks.TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015
+**1. TensorFlow:** TensorFlow is an open-source software library for dataflow programming and widely used for machine learning applications such as neural networks.TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015
 
 > *"Computation using data flow graphs for scalable machine learning."*
 
+TensorFlow is an interface for expressing Machine Learning algorithm & implementation for executing such algorithm. It helps for creating ensemble algorithms for todays most challenging problems.
 
+**Advantages :**
+
+1. Flexible Structure
+2. Rich Documentation with great community
+3. Predefined implimentation available as well as open-source
+
+**Drawbacks :**
+
+1. It requires knowledge of Python
+2. Conputation is bit slow
+3. Overkill for simpler tasks
+
+[Click Here For Documentation](https://www.tensorflow.org/)
+
+**2. PyTorch :**
 ### 3. Popular Implimented Projects in Python
 ### 4. Motivation
