@@ -71,7 +71,7 @@ PyTorch is fast and lean because it gives feature to integrate acceleration libr
 
 **3. Keras :**
 
-
+Keras is an open-source high-level neural networks Library, written in Python. It is running on top of TensorFlow, CNTK, or Theano. Keras is an easy to use neural network library that promotes a simple and clean syntax.
 
 ### 3. Popular Implimented Projects in Python
 ### 4. Motivation
