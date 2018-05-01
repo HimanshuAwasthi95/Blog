@@ -100,10 +100,18 @@ The library is built upon the SciPy (Scientific Python) that must be installed b
     Sympy: Symbolic mathematics
     Pandas: Data structures and analysis
 
+Scikit-Learn is characterized by a clean, uniform, and streamlined API, as well as by very useful and complete online documentation. A benefit of this uniformity is that once you understand the basic use and syntax of Scikit-Learn for one type of model, switching to a new model or algorithm is very straightforward.
 
 **Advantages :**
 
+1. Easy to use
+2. supports most practical tasks
+
 **Drawbacks :**
+
+1. Bad for deep learning
+
+[Click Here For Documentation](scikit-learn.org/)
 
 ### 3. Popular Implimented Projects in Python
 ### 4. Motivation
