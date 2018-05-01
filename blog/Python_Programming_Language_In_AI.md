@@ -117,33 +117,23 @@ Scikit-Learn is characterized by a clean, uniform, and streamlined API, as well 
 
 Getting into Machine Learning and AI is not an easy task. Lots of effort put together for implimenting some useful task to build an AI model. Open source projects can be useful for data scientists. You can learn by reading the source code and build something on top of the existing projects. Lots of people start contributing to opensource just because of these awesome opensource projects. here I will tell you about five most populer opensource projects which are widely used for developing any AI models are as follows :
 
-**1. TensorFlow :**
-
-169% up, from 493 to 1453 contributors 
+**1. TensorFlow :** 169% up, from 493 to 1453 contributors 
 
 [Github Link](https://github.com/tensorflow/tensorflow)
 
-**2. Keras :**
-
-656 contributors
+**2. Keras :** 656 contributors
 
 [Github Link](https://github.com/keras-team/keras)
 
-**3. PyTorch :**
-
-613 contributors
+**3. PyTorch :** 613 contributors
 
 [Github Link](https://github.com/pytorch/pytorch)
 
-**4. Scikit Learn :**
-
-1069 contributors
+**4. Scikit Learn :** 1069 contributors
 
 [Github Link](https://github.com/scikit-learn/scikit-learn)
 
-**5. Theano :**
-
-330 contributors
+**5. Theano :** 330 contributors
 
 [Github Link](https://github.com/Theano/Theano)
 
