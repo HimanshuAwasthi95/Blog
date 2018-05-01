@@ -89,6 +89,18 @@ Keras code is portable, There is no need to change your code written in Keras, w
 
 **4. Scikit Learn :**
 
+Scikit-learn is probably the most useful library for machine learning in Python. Scikit-learn was initially developed by David Cournapeau as a Google summer of code project in 2007. It is on NumPy, SciPy and matplotlib, this library contains a lot of effiecient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction.
+
+The library is built upon the SciPy (Scientific Python) that must be installed before you can use scikit-learn. This stack that includes:
+
+    NumPy: Base n-dimensional array package
+    SciPy: Fundamental library for scientific computing
+    Matplotlib: Comprehensive 2D/3D plotting
+    IPython: Enhanced interactive console
+    Sympy: Symbolic mathematics
+    Pandas: Data structures and analysis
+
+
 **Advantages :**
 
 **Drawbacks :**
