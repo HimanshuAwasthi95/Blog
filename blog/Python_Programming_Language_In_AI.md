@@ -141,3 +141,15 @@ Lots of people start contributing to opensource just because of these awesome op
 
 
 ### 4. Motivation
+
+Machine learning is about teaching computers how to learn from data to make decisions or predictions. For true machine learning, the computer must be able to learn to identify patterns without being explicitly programmed to.
+
+You may also hear it labeled several other names or buzz words:
+
+> Data Science, Big Data, Artificial Intelligence, Predictive Analytics, Computational Statistics, Data Mining, Etc...
+
+The best way to dive in to AI is to learn thing by your own which is know as **The Self-Starter Way**. Self-Starter way is far better then academic apporoch where you don't have to follow lots of guidelines. **Doing Practice** is only way to learn things.
+
+#### So Best of Luck
+
+## Happy Coding!
