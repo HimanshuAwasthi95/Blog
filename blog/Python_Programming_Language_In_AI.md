@@ -150,6 +150,6 @@ You may also hear it labeled several other names or buzz words:
 
 The best way to dive in to AI is to learn thing by your own which is know as **The Self-Starter Way**. Self-Starter way is far better then academic apporoch where you don't have to follow lots of guidelines. **Doing Practice** is only way to learn things.
 
-#### So Best of Luck
+#### Keep Practice
 
 ## Happy Coding!
