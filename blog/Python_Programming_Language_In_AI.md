@@ -115,7 +115,9 @@ Scikit-Learn is characterized by a clean, uniform, and streamlined API, as well 
 
 ### 3. Popular Implimented Projects in Python
 
-Getting into Machine Learning and AI is not an easy task. Lots of effort put together for implimenting some useful task to build an AI model. Open source projects can be useful for data scientists. You can learn by reading the source code and build something on top of the existing projects. Lots of people start contributing to opensource just because of these awesome opensource projects. here I will tell you about five most populer opensource projects which are widely used for developing any AI models are as follows :
+Getting into Machine Learning and AI is not an easy task. Lots of effort put together for implimenting some useful task to build an AI model. Open source projects can be useful for data scientists. You can learn by reading the source code and build something on top of the existing projects. 
+
+Lots of people start contributing to opensource just because of these awesome opensource projects. here I will tell you about five most populer opensource projects which are widely used for developing any AI models are as follows :
 
 **1. TensorFlow :** 169% up, from 493 to 1453 contributors 
 
