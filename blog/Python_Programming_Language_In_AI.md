@@ -23,6 +23,9 @@ In this section, we will be looking at powerful, popular Python libraries that a
 
 **1. TensorFlow:** 
 
+
+![tensorflow](../img/TensorFlow-Featured.jpg)
+
 TensorFlow is an open-source software library for dataflow programming and widely used for machine learning applications such as neural networks.TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015
 
 > *"Computation using data flow graphs for scalable machine learning."*
@@ -44,6 +47,8 @@ TensorFlow is an interface for expressing Machine Learning algorithm & implement
 [Click Here For Documentation](https://www.tensorflow.org/)
 
 **2. PyTorch :**
+
+![PyTorch](../img/pytorch.png)
 
 PyTorch is a Python-based open-source Machine Learning library with GPU support. PyTorch is a python package that provides two high-level features:
 * Tensor computation (like numpy) with strong GPU acceleration
@@ -71,6 +76,8 @@ PyTorch is fast and lean because it gives feature to integrate acceleration libr
 
 **3. Keras :**
 
+![Keras](../img/keras.png)
+
 Keras is an open-source high-level neural networks Library, written in Python. It is running on top of TensorFlow, CNTK, or Theano. Keras is an easy to use neural network library that promotes a simple and clean syntax. Keras is layer-oriented. I suggest use **Keras** If you're using known network design. 
 
 Keras code is portable, There is no need to change your code written in Keras, whether you change your backend from Theano to TensorFlow. Keras is more mature then PyTorch with great community support.
@@ -88,6 +95,8 @@ Keras code is portable, There is no need to change your code written in Keras, w
 [Click Here For Documentation](https://keras.io/)
 
 **4. Scikit Learn :**
+
+![Keras](../img/scikit.png)
 
 Scikit-learn is probably the most useful library for machine learning in Python. Scikit-learn was initially developed by David Cournapeau as a Google summer of code project in 2007. It is on NumPy, SciPy and matplotlib, this library contains a lot of effiecient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction.
 
