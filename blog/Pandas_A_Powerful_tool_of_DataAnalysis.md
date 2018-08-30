@@ -45,4 +45,6 @@ If you do not have Anaconda on your computer,
 pip install pandas
 ```
 
+### Data Structure using *Pandas*:
+
 
