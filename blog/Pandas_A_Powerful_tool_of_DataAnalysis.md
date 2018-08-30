@@ -17,3 +17,13 @@ Data Science is just a way to take Data driven Decisions
 Data Science is very helpful when we talk about predictive analysis like weather forecasting, Stock Market behaviour and a lot of thing which impact our life directely.
 
 ## Why Pandas : 
+
+Why ??????? Pandas ........
+
+```
+Pandas Because its open source python library.
+```
+
+Pandas is a [Numfocus](https://www.numfocus.org/open-source-projects.html) Sponsored BSD-licensed [Python](https://www.python.org/) library which allows you do fast data analysis as well as data cleaning. Pandas is typically the intermediate tool used for data exploration and cleaning, data modeling and predicting.
+
+The power you have when you use pandas is that it is a Tool which gives you freedom to play with any structure of data like CSV and text files, Microsoft Excel, SQL databases, and the fast HDF5 format or even a webpage.
