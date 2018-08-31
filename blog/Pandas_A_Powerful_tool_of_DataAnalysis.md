@@ -47,4 +47,22 @@ pip install pandas
 
 ### Data Structure using *Pandas*:
 
+There are three types of Data Structure in Pandas:
+  * Series
+  * Data Frame
+  * Panel
+
+**Series** : Series is a one-dimensional labeled array capable of holding data in integer, string, float, python objects type etc. The axis labeles are referred to as the *index* . A Series is similar to a list or an array in Python. How a Series works ?
+
+you just need to import the pandas into your Python program and you are ready to go:
+
+```
+impord pandas as pd
+```
+The basic method to create a Series is to call:
+```
+First_series = pd.Series(data, index=index)
+```
+
+
 
