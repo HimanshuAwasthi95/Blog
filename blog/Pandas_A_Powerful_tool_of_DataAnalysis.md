@@ -101,7 +101,16 @@ Zeomega           100
 dtype: int64
 ```
 
-#### DataFrame:
+#### DataFrame: 
+A Data frame is a two-dimensional data structure with columns of potentially different types. Data is in the form of tabular form like row and column. 
+It is widely used pandas object. DataFrame accepts many different kinds of input:
+
+        * Dict of 1D ndarrays, lists, dicts, or Series
+        * 2-D numpy.ndarray
+        * Structured or record ndarray
+        * A Series
+        * Another DataFrame
+        
 
 
 
