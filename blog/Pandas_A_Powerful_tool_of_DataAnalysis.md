@@ -52,7 +52,8 @@ There are three types of Data Structure in Pandas:
   * Data Frame
   * Panel
 
-**Series** : Series is a one-dimensional labeled array capable of holding data in integer, string, float, python objects type etc. The axis labeles are referred to as the *index* . A Series is similar to a list or an array in Python. How a Series works ?
+#### Series: 
+Series is a one-dimensional labeled array capable of holding data in integer, string, float, python objects type etc. The axis labeles are referred to as the *index* . A Series is similar to a list or an array in Python. How a Series works ?
 
 you just need to import the pandas into your Python program and you are ready to go:
 
@@ -63,6 +64,44 @@ The basic method to create a Series is to call:
 ```
 First_series = pd.Series(data, index=index)
 ```
+
+**Create a Series from ndarray:** If data is an ndarray, index must be the same length as data.  If no index is passed, default will be created having values [0, ..., len(data) - 1].
+
+```
+In [1]: import pandas as pd
+
+In [2]: import numpy as np
+
+In [3]: data = np.array(['A' , 'B', 'C', 'D', 'E'])
+
+In [4]: series_from_ndarray = pd.Series(data)
+
+In [5]: print (series_from_ndarray)
+0    A
+1    B
+2    C
+3    D
+4    E
+dtype: object
+```
+We did not pass any index, so by default, it assigned the indexes ranging from 0 to len(data)-1, i.e., 0 to 3.
+
+**Series from Dictionary:** Series can be created by Dictionary. When the data is a dict, and an index is not passed, the Series index will be ordered by the dict’s insertion order.
+
+```
+In [7]: dictionary = {'Zeomega': 100 , 'Zeolearn' : 200 , 'Medium':300, 'Tutoria
+   ...: lPoints': 400}
+
+In [8]: pd.Series(dictionary)
+Out[8]: 
+Medium            300
+TutorialPoints    400
+Zeolearn          200
+Zeomega           100
+dtype: int64
+```
+
+#### DataFrame:
 
 
 
