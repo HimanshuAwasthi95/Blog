@@ -108,9 +108,31 @@ It is widely used pandas object. DataFrame accepts many different kinds of input
         * Dict of 1D ndarrays, lists, dicts, or Series
         * 2-D numpy.ndarray
         * Structured or record ndarray
-        * A Series
         * Another DataFrame
-        
+ 
+**Create an Empty DataFrame:** 
+```
+#import the pandas library and aliasing as pd
+import pandas as pd
+df = pd.DataFrame()
+print df
+```
+Output:
+```
+Empty DataFrame
+Columns: []
+Index: []
+```
+
+#### Panel:
+A **Panel** is the 3 D Container of Data.
+Represented as **pandas.Panel()**
+A Panel can be created using the following constructor:
+```
+class pandas.Panel(data=None, items=None, major_axis=None, minor_axis=None, copy=False, dtype=None)
+```
+
+
 
 
 
