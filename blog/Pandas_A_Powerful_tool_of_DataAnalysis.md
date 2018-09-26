@@ -152,7 +152,44 @@ Minor_axis axis: 0 to 4
 
 ### Perform Basic operation of Pandas:
 
+#### Working with Text Data :
 
+Lets create of series of Name 
+```
+In [2]: import pandas as pd
 
+In [3]: name = pd.Series(['Himanshu', 'ZeoLearn', 'Internet', 'Blog'])
+```
+* Convert all names in Lower string 
+```
+
+In [4]: name.str.lower()
+Out[4]: 
+0    himanshu
+1    zeolearn
+2    internet
+3        blog
+dtype: object
+```
+* Convert all names in upper String
+```
+In [5]: name.str.upper()
+Out[5]: 
+0    HIMANSHU
+1    ZEOLEARN
+2    INTERNET
+3        BLOG
+dtype: object
+```
+* Find the length of strings
+```
+In [6]: name.str.len()
+Out[6]: 
+0    8
+1    8
+2    8
+3    4
+dtype: int64
+```
 
 
