@@ -131,6 +131,26 @@ A Panel can be created using the following constructor:
 ```
 class pandas.Panel(data=None, items=None, major_axis=None, minor_axis=None, copy=False, dtype=None)
 ```
+```
+#creating an empty panel
+import pandas as pd
+import numpy as np
+
+data = {'Item1' : pd.DataFrame(np.random.randn(4, 3)), 
+        'Item2' : pd.DataFrame(np.random.randn(4, 2))}
+p = pd.Panel(data)
+print p
+```
+Output :
+```
+<class 'pandas.core.panel.Panel'>
+Dimensions: 2 (items) x 4 (major_axis) x 5 (minor_axis)
+Items axis: 0 to 1
+Major_axis axis: 0 to 3
+Minor_axis axis: 0 to 4
+```
+
+### Perform Basic operation of Pandas:
 
 
 
