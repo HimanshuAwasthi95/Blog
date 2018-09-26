@@ -162,7 +162,6 @@ In [3]: name = pd.Series(['Himanshu', 'ZeoLearn', 'Internet', 'Blog'])
 ```
 * Convert all names in Lower string 
 ```
-
 In [4]: name.str.lower()
 Out[4]: 
 0    himanshu
@@ -191,5 +190,44 @@ Out[6]:
 3    4
 dtype: int64
 ```
+* Split the columns 
+```
+In [7]: name = pd.Series(['Himanshu Awasthi', 'ZeoLearn Technology', 'Internet o
+   ...: f Things', 'Blog bapu'])
+In [8]: name.str.split(" ", expand=True)
+Out[8]: 
+          0           1       2
+0  Himanshu     Awasthi    None
+1  ZeoLearn  Technology    None
+2  Internet          of  Things
+3      Blog        bapu    None
+```
+* Concatanation of String 
+The content of a Series (or Index) can be concatenated:
+```
+In [9]: name.str.cat(sep=';')
+Out[9]: 'Himanshu Awasthi;ZeoLearn Technology;Internet of Things;Blog bapu'
+```
+* add index element of one series with index element of another series using join 
+```
+In [10]: standard = pd.Series(['1a' , '2a', '3a', '4a'])
 
+In [11]: name.str.cat(standard,join='outer')
+Out[11]: 
+0       Himanshu Awasthi1a
+1    ZeoLearn Technology2a
+2     Internet of Things3a
+3              Blog bapu4a
+dtype: object
+```
+We can use seprator too, 
+```
+In [12]: name.str.cat(standard,join='outer', sep=' ;')
+Out[12]: 
+0       Himanshu Awasthi ;1a
+1    ZeoLearn Technology ;2a
+2     Internet of Things ;3a
+3              Blog bapu ;4a
+dtype: object
+```
 
