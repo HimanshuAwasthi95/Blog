@@ -220,7 +220,7 @@ Out[11]:
 3              Blog bapu4a
 dtype: object
 ```
-We can use seprator too, 
+We can use seprator b/w strings, 
 ```
 In [12]: name.str.cat(standard,join='outer', sep=' ;')
 Out[12]: 
@@ -231,3 +231,52 @@ Out[12]:
 dtype: object
 ```
 
+#### Groupby :
+**Groupby** is a very powerful pandas method. It helps to perform following operations :
+  * Splitting
+  * Applying 
+  * Combining 
+  
+Lets create a politics Data Frame & perform operations : 
+```
+In [13]: politics = {'party':['Congress', 'BJP' , 'SP', 'BSP' , 'Other'], 
+    ...: 'number_of_sheat' : [10, 80, 30, 5, 2],
+    ...: 'Year' :[2007, 2011, 2015, 2020,2025],
+    ...: 'winner_sheats':[80, 70, 92, 86, 90]}
+
+In [14]: df = pd.DataFrame(politics)
+
+In [15]: print (df)
+   Year  number_of_sheat     party  winner_sheats
+0  2007               10  Congress             80
+1  2011               80       BJP             70
+2  2015               30        SP             92
+3  2020                5       BSP             86
+4  2025                2     Other             90
+```
+Split Data into groups :
+There are multiple ways to split an object like −
+
+    * obj.groupby('key')
+    * obj.groupby(['key1','key2'])
+    * obj.groupby(key,axis=1)
+
+```
+In [16]: df.groupby('party').groups
+Out[16]: 
+{'BJP': Int64Index([1], dtype='int64'),
+ 'BSP': Int64Index([3], dtype='int64'),
+ 'Congress': Int64Index([0], dtype='int64'),
+ 'Other': Int64Index([4], dtype='int64'),
+ 'SP': Int64Index([2], dtype='int64')}
+```
+Group by with multiple columns:
+```
+In [19]: df.groupby(['party', 'Year']).groups
+Out[19]: 
+{('BJP', 2011): Int64Index([1], dtype='int64'),
+ ('BSP', 2020): Int64Index([3], dtype='int64'),
+ ('Congress', 2007): Int64Index([0], dtype='int64'),
+ ('Other', 2025): Int64Index([4], dtype='int64'),
+ ('SP', 2015): Int64Index([2], dtype='int64')}
+```
