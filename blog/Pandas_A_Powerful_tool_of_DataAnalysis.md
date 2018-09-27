@@ -257,9 +257,9 @@ In [15]: print (df)
 Split Data into groups :
 There are multiple ways to split an object like −
 
-    * obj.groupby('key')
-    * obj.groupby(['key1','key2'])
-    * obj.groupby(key,axis=1)
+   * obj.groupby('key')
+   * obj.groupby(['key1','key2'])
+   * obj.groupby(key,axis=1)
 
 ```
 In [16]: df.groupby('party').groups
@@ -280,3 +280,14 @@ Out[19]:
  ('Other', 2025): Int64Index([4], dtype='int64'),
  ('SP', 2015): Int64Index([2], dtype='int64')}
 ```
+This was short tour of Pandas Functionality, You can do a lot of cool stuffs using this beautiful & tremendous library of Python.
+### How to contribute to Pandas :
+This section only for those who willing to join the awesome team & community of Pandas. If you are developer or student who always willing to be the part of cool community.
+```
+How to Contribute ?
+```
+Visit the github page of Pandas.
+
+[Click me to visit Github Page of Pandas](https://github.com/pandas-dev/pandas)
+
+README file have a section where you get contributors guide. If you find issues required technical skills to resolve it So don't be hesitate to ask or if you don't wanna spend time to code you can contribute to documentation of Pandas.
