@@ -28,6 +28,8 @@ Pandas is a [Numfocus](https://www.numfocus.org/open-source-projects.html) Spons
 
 The power you have when you use pandas is that it is a Tool which gives you freedom to play with any structure of data like CSV and text files, Microsoft Excel, SQL databases, and the fast HDF5 format or even a webpage.
 
+Pandas gives you super-power to handle missing data also you can perform split, apply, combine operations on data sets using group by functionality. A lot of more cool facts which made Pandas more powerful tool for Data Scientist.
+
 ## Lets Dive into Pandas:
 
 ### Installing Pandas:
