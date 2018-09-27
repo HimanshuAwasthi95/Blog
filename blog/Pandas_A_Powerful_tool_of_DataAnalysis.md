@@ -297,3 +297,11 @@ Writeup by NumFOCUS for last Pandas Documentation Sprint Event in which 500+ peo
 [worldwide-pandas-sprint](https://numfocus.org/blog/worldwide-pandas-sprint)
 
 ## Motivation
+Pandas is most popular Library of Python which is widely used for Data Analysis. If you don't have any privious intraction with Python So don't need to panic. It requires very less understanding of Python & you can directly start with Pandas. 
+```
+Use the tools to learn: Don’t learn just to use the tools.
+```
+Test your Knowledge with Stack Overflow. See how people response for the same problem in different ways.
+Read Documentation first, then start & try to contribute.
+
+**Happy Coding**
