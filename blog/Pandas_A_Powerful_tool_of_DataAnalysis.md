@@ -60,7 +60,7 @@ Series is a one-dimensional labeled array capable of holding data in integer, st
 you just need to import the pandas into your Python program and you are ready to go:
 
 ```
-impord pandas as pd
+import pandas as pd
 ```
 The basic method to create a Series is to call:
 ```
