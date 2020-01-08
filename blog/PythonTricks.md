@@ -186,7 +186,47 @@ Apart from use as temporary variable we can use this " _ " to get the result of 
 
 ## String Formatting in Python:
 
-String formatting is one of the useful feature of python language.
+String formatting is one of the useful feature of python language. We can use different way of String Formatting according to our requirement. 
+- Using ***format()***
+
+- Literal String Interpolation
+
+- Template String
+
+Lets see some examples :
+
+```python
+>>> name = "Himanshu"
+>>> "hello,{}".format(name) #Using format()
+'hello,Himanshu'
+
+# f-string
+
+>>> f'hello,{name}' 
+'hello,Himanshu'
+>>> num1 = 20
+>>> num2 = 10
+>>> f'Addition of num1 & num2 is {num1+num2}'
+'Addition of num1 & num2 is 30'
+
+#Template String
+
+>>> from string import Template
+>>> t = Template('Hey, $name')
+>>> t.substitute(name=name)
+'Hey, Himanshu'
+```
+
+Finally I am wrapping up this Python Tricks blog & I will try to comeup with more detailed blogs in future.
+I am creating content for Python List, Dictionary and Tuple which will be detailed blog with good setof example. 
+
+`what I need  ? `
+
+*Feedback & Suggestions*
+
+**Happy Learning**
+
+
 
 
 
